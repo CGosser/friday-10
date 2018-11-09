@@ -1,7 +1,8 @@
 import React from "react";
 import SidebarItems from "./SidebarItems";
 import MainContent from "./MainContent";
-
+import BigFeatured from './BigFeatured'
+import SmallFeatured from './SmallFeatured'
 function ContentContainer(){
   var containerStyle = {
     position: "relative",
@@ -11,9 +12,13 @@ function ContentContainer(){
     width: "45%",
   };
   return (
+    <div>
+    <BigFeatured/>
+    <SmallFeatured/>
     <div style={containerStyle}>
       <SidebarItems/>
       <MainContent/>
+    </div>
     </div>
   );
 }

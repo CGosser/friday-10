@@ -3,7 +3,7 @@ import image from "../assets/images/logo.png";
 
 function Logo(){
   var logoStyles = {
-    paddingLeft: 50
+    width: "150px"
   };
   return (
     <a href="#"><img style={logoStyles} src={image}/></a>

@@ -15,10 +15,6 @@ function App(){
       <Header/>
       <Switch>
         <Route exact path='/' component={ContentContainer} />
-        <Route path='/' component={ContentContainer} />
-        <Route path='/' component={ContentContainer}/>
-        <Route path='/' component={ContentContainer} />
-        <Route path='/' component={ContentContainer} />
       </Switch>
     </div>
   );
