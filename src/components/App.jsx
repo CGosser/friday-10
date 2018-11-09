@@ -2,9 +2,6 @@ import React from "react";
 import Header from "./Header";
 import ContentContainer from "./ContentContainer";
 import { Switch, Route } from 'react-router-dom';
-import Shop from './Shop';
-import ShopItems from './ShopItems';
-import About from './About';
 
 function App(){
   return (
