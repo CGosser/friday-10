@@ -1,4 +1,4 @@
-# recreation of my reproduction of cracked.com, using react instead of angular.
+# recreation of my reproduction of tap room project, using react instead of angular.
 
 ## planning
 
