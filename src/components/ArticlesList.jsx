@@ -1,5 +1,12 @@
 const masterArticlesList = [
     {
+      title: "horror movie character logic that falls apart in three steps",
+      author: "CRACKED readers", "October 19, 2018",
+      date: "5",
+      comments: "http://s3.crackedcdn.com/phpimages/photoshop/0/4/5/676045_v2.jpg",
+      content: "no content"
+    }
+    {
       title: "5 movies stunts that went horribly wrong",
       author: "Mark Hill",
       date: "october 19, 2018",
@@ -48,3 +55,4 @@ const masterArticlesList = [
       content: "1"
     }
 ];
+export default masterArticlesList;
