@@ -13,3 +13,4 @@ function Logo(){
 }
 
 export default Logo;
+![screenshot of cracked.com](cracked.jpg)
