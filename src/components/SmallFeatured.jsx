@@ -10,9 +10,11 @@ function SmallFeatured(props){
     backgroundRepeat: 'no-repeat'
   };
   return (
-    <div style={shopStyles}>
-      <h2>{props.price}</h2>
-      <p>{props.info}</p>
+    <div>
+    <div style={smallFeaturedStyles}>
+      <h2>{props.title}</h2>
+      <p> by {props.author} / {props.date} / {props.comments}</p>
+    </div>
     </div>
   );
 }
@@ -21,4 +23,4 @@ Shop.propTypes = {
   price: PropTypes.string,
   info: PropTypes.string
 };
-export default Shop;
+export default SmallFeatured;
