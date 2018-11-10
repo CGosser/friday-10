@@ -16,15 +16,16 @@ function ContentContainer(){
   return (
     <div>
     <BigFeatured/>
-    {ArticlesList.map((item, index) =>
+    {ArticlesList.map((item, index) =>{
       if (index < 4 && index >= 1) {
-        <SmallFeatured image={item.image}
+        return(<SmallFeatured image={item.image}
         title={item.title}
         author={item.author}
         date={item.date}
         comments={item.comments}
         key={index}
-})}
+        />)
+}})}
 
     <SmallFeatured/>
     <div style={containerStyle}>
