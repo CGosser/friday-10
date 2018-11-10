@@ -11,10 +11,10 @@ function SmallFeatured(props){
   };
   return (
     <div>
-    <div style={smallFeaturedStyles}>
-      <h2>{props.title}</h2>
-      <p> by {props.author} / {props.date} / {props.comments}</p>
-    </div>
+      <div style={smallFeaturedStyles}>
+        <h2>{props.title}</h2>
+        <p> by {props.author} / {props.date} / {props.comments}</p>
+      </div>
     </div>
   );
 }
