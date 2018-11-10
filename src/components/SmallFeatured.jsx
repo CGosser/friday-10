@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function SmallFeatured(props){
   const smallFeaturedStyles = {
-    backgroundImage: props.image,
+    backgroundImage: props.imageUrl,
     height: 500,
     width: 500,
     backgroundSize: 'contain',
@@ -12,14 +12,15 @@ function SmallFeatured(props){
   return (
     <div>
       <div style={smallFeaturedStyles}>
+      </div>
         <h2>{props.title}</h2>
         <p> by {props.author} / {props.date} / {props.comments}</p>
-      </div>
     </div>
   );
 }
-Shop.propTypes = {
-  image: PropTypes.string,
+SmallFeatured.propTypes = {
+  imageUrl: PropTypes.string,
+  title: PropTypes.string,
   price: PropTypes.string,
   author: PropTypes.string,
   date: PropTypes.string,

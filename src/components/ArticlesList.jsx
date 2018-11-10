@@ -4,7 +4,7 @@ const masterArticlesList = [
     author: "CRACKED readers",
     date: "October 19, 2018",
     comments: "5",
-    comments: "http://s3.crackedcdn.com/phpimages/photoshop/0/4/5/676045_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/photoshop/0/4/5/676045_v2.jpg)",
     content: "no content"
   },
   {
@@ -12,7 +12,7 @@ const masterArticlesList = [
     author: "Mark Hill",
     date: "october 19, 2018",
     comments: "12",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg)",
     content: "In the age of CGI, it's easy to forget how many movie stunts are real ... and re... "
   },
   {
@@ -20,7 +20,7 @@ const masterArticlesList = [
     author: "Daniel Dockery",
     date: "october 28, 2018",
     comments: "43",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/8/4/0/676840_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/8/4/0/676840_v2.jpg)",
     content: "This is the time of year for horror movie recommendations, and people making those tend to stick to the classics -- Halloween, The Exorcist, the Spooky Scary Skeletons YouTube video, etc."
   },
   {
@@ -28,7 +28,7 @@ const masterArticlesList = [
     author: "Tony Alpsen",
     date: "october 19, 2018",
     comments: "5",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/0/3/0/676030_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/0/3/0/676030_v2.jpg)",
     content: "Here's why retconning the entire franchise lore makes total sense."
   },
   {
@@ -36,7 +36,7 @@ const masterArticlesList = [
     author: "CRACKED store",
     date: "october 19, 2018",
     comments: "5",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/0/5/4/676054_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/0/5/4/676054_v2.jpg)",
     content: "These doodads are just that doogood."
   },
   {
@@ -44,7 +44,7 @@ const masterArticlesList = [
     author: "Mark Hill",
     date: "october 19, 2018",
     comments: "12",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg)",
     content: "1"
   },
   {
@@ -52,7 +52,7 @@ const masterArticlesList = [
     author: "Mark Hill",
     date: "october 19, 2018",
     comments: "12",
-    imageUrl: "http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg",
+    imageUrl: "url(http://s3.crackedcdn.com/phpimages/article/0/3/8/676038_v2.jpg)",
     content: "1"
   }
 ];

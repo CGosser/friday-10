@@ -2,8 +2,8 @@ import React from "react";
 import masterArticlesList from "./ArticlesList";
 
 function BigFeatured(){
-  var bigFeaturedStyles = {
-    backgroundImage: masterArticlesList[0].image,
+  const bigFeaturedStyles = {
+    backgroundImage: masterArticlesList[0].imageUrl,
     width: "100%",
     height: "403px",
     marginBottom: "20px",
