@@ -21,6 +21,8 @@ function SmallFeatured(props){
 Shop.propTypes = {
   image: PropTypes.string,
   price: PropTypes.string,
-  info: PropTypes.string
+  author: PropTypes.string,
+  date: PropTypes.string,
+  comments: PropTypes.string
 };
 export default SmallFeatured;
