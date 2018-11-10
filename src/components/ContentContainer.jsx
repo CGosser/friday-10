@@ -26,8 +26,6 @@ function ContentContainer(){
           key={index}
           />);
         }})}
-
-        <SmallFeatured/>
         <div style={containerStyle}>
         <SidebarItems/>
         <MainContent/>
