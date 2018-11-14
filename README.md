@@ -15,6 +15,7 @@
 * encountered quite a few problems with making the conditional in the .map loop work properly, eventually discovered it was just a missing curly brace and return statement.
 * having trouble deciding where to use routing, I think I'm going to include it for making an article page.
 * had some trouble with a series of errors causing the page to compile but display nothing, eventually just hunted down some naming inconsistancies that were causing it.
+* styles won't seem to apply to the maincontent component
 
 
 ## installation
