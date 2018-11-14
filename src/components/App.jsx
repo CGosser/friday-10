@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import ContentContainer from "./ContentContainer";
 import { Switch, Route } from 'react-router-dom';
+import MainContent from "./MainContent";
 
 function App(){
   return (
@@ -15,6 +16,7 @@ function App(){
       <Header/>
       <Switch>
         <Route exact path='/' component={ContentContainer} />
+        <Route path='/article' component={MainContent} />
       </Switch>
     </div>
   );

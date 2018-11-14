@@ -2,19 +2,22 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function SmallFeatured(props){
-  const smallFeaturedStyles = {
+  const smallFeaturedImageStyles = {
     backgroundImage: props.imageUrl,
-    height: 500,
-    width: 500,
+    height: "140px",
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat'
   };
+  const smallFeaturedStyles = {
+    fontSize:"1.188rem",
+    width: "360px",
+  };
   return (
-    <div>
-      <div style={smallFeaturedStyles}>
+    <div style={smallFeaturedStyles}>
+      <div style={smallFeaturedImageStyles}>
       </div>
-        <h2>{props.title}</h2>
-        <p> by {props.author} / {props.date} / {props.comments}</p>
+      <h2>{props.title}</h2>
+      <p> by {props.author} / {props.date} / {props.comments}</p>
     </div>
   );
 }
