@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 function NavBar(){
   var navStyles = {
+    marginLeft: '20px',
     display: "flex",
     width: "760px",
     listStyle: "none",
@@ -10,13 +11,13 @@ function NavBar(){
     marginRight: 100,
   };
   var aStyles = {
-    cursor: "crosshair",
+    cursor: "pointer",
     fontWeight: "bolder",
     textTransform: "uppercase"
   };
   return (
     <ul style={navStyles}>
-      <li><a className="color-toggle" style={aStyles} href="#/About">articles</a></li>
+      <li><a className="color-toggle" style={aStyles} href="#/article">articles</a></li>
       <li><a className="color-toggle" style={aStyles} href="#/Shop">photoplasties</a></li>
       <li><a style={aStyles} className="color-toggle"  href="#/Party">pictofacts</a></li>
       <li><a style={aStyles} className="color-toggle" href="#/fnord">personal experiences</a></li>
