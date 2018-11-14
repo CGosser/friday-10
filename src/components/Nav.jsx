@@ -18,11 +18,11 @@ function NavBar(){
   return (
     <ul style={navStyles}>
       <li><a className="color-toggle" style={aStyles} href="#/article">articles</a></li>
-      <li><a className="color-toggle" style={aStyles} href="#/Shop">photoplasties</a></li>
-      <li><a style={aStyles} className="color-toggle"  href="#/Party">pictofacts</a></li>
-      <li><a style={aStyles} className="color-toggle" href="#/fnord">personal experiences</a></li>
-      <li><a style={aStyles} className="color-toggle" href="#/fnord">forums</a></li>
-      <li><a style={aStyles} className="color-toggle" href="#/fnord">more</a></li>
+      <li><a className="color-toggle" style={aStyles} href="#">photoplasties</a></li>
+      <li><a style={aStyles} className="color-toggle" href="#">pictofacts</a></li>
+      <li><a style={aStyles} className="color-toggle" href="#">personal experiences</a></li>
+      <li><a style={aStyles} className="color-toggle" href="#">forums</a></li>
+      <li><a style={aStyles} className="color-toggle" href="#">more</a></li>
       <style jsx>{`
           .color-toggle{
             text-decoration: none;
