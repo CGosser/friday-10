@@ -42,6 +42,7 @@ render(){
     <CommentList
     commentList={this.state.masterCommentList}/>
     </div>
-  }
-
-  export default CommentSection;
+  )
+}
+}
+export default CommentSection;
