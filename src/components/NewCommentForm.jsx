@@ -5,18 +5,18 @@ import Moment from 'moment';
 function NewCommentForm(props){
   var commentBox = {
     marginTop: '2em'
-  }
+  };
   var commentStyles = {
     width: '100%',
     height: '150px'
-  }
+  };
 
   var buttonStyles = {
     paddingTop: '10px',
     paddingBottom: '10px',
     paddingLeft: '35px',
     paddingRight: '35px'
-  }
+  };
   
   let _names = null;
   let _comment = null;

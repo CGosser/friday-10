@@ -13,29 +13,35 @@ class CommentSection extends React.Component{
   }
   componentDidMount() {
     this.waitTimeUpdateTimer = setInterval(() =>
-      this.updateCommentElapsedWaitTime(),
+    this.updateCommentElapsedWaitTime(),
     5000
-    );
-  }
-  componentWillUnmount(){
-    clearInterval(this.waitTimeUpdateTimer);
-  }
-  updateCommentElapsedWaitTime() {
-    console.log("check");
-    let newMasterCommentList = this.state.masterCommentList.slice();
-    newMasterCommentList.forEach((comment) =>
-      comment.commentTimeStamp = (comment.timeOpen).fromNow(true)
-    );
-    this.setState({masterCommentList: newMasterCommentList});
+  );
+}
+componentWillUnmount(){
+  clearInterval(this.waitTimeUpdateTimer);
+}
+updateCommentElapsedWaitTime() {
+  console.log("check");
+  let newMasterCommentList = this.state.masterCommentList.slice();
+  newMasterCommentList.forEach((comment) =>
+  comment.commentTimeStamp = (comment.timeOpen).fromNow(true)
+);
+this.setState({masterCommentList: newMasterCommentList});
+}
+
+handleAddingNewCommentToList(newComment){
+  var newMasterCommentList = this.state.masterCommentList.slice();
+  newMasterCommentList.push(newComment);
+  this.setState({masterCommentList: newMasterCommentList});
+}
+render(){
+  return (
+    <div>
+    <NewCommentControl
+    onNewCommentCreation={this.handleAddingNewCommentToList}/>
+    <CommentList
+    commentList={this.state.masterCommentList}/>
+    </div>
   }
 
-  handleAddingNewCommentToList(newComment){
-    var newMasterCommentList = this.state.masterCommentList.slice();
-    newMasterCommentList.push(newComment);
-    this.setState({masterCommentList: newMasterCommentList});
-  }
-
-
-  }
-
-export default CommentSection;
+  export default CommentSection;
